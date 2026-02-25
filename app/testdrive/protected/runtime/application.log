@@ -1,0 +1,1618 @@
+2026/02/24 10:36:14 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /var/www/app/framework/web/auth/CAccessControlFilter.php:183
+Stack trace:
+#0 /var/www/app/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/app/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/app/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/admin')
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book/admin
+HTTP_REFERER=http://localhost:8094/index.php?r=book
+---
+2026/02/24 10:41:38 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /var/www/app/framework/web/auth/CAccessControlFilter.php:183
+Stack trace:
+#0 /var/www/app/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/app/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/app/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/admin')
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=author/admin
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/24 10:41:44 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /var/www/app/framework/web/auth/CAccessControlFilter.php:183
+Stack trace:
+#0 /var/www/app/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/app/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/app/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/admin')
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=author/admin
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/24 10:59:32 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /var/www/app/framework/web/auth/CAccessControlFilter.php:183
+Stack trace:
+#0 /var/www/app/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/app/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top')
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top')
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=author/top
+---
+2026/02/24 13:43:50 [error] [exception.CException] CException: Property "CWebApplication.authorService" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/base/CModule.php(105): CComponent->__get('authorService')
+#1 /var/www/app/testdrive/protected/controllers/AuthorController.php(9): CModule->__get('authorService')
+#2 /var/www/app/framework/web/CWebApplication.php(359): AuthorController->__construct('author', NULL)
+#3 /var/www/app/framework/web/CWebApplication.php(276): CWebApplication->createController('index/')
+#4 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/index')
+#5 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/app/testdrive/index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=author/index
+HTTP_REFERER=http://localhost:8094/index.php?r=author/view&id=3
+---
+2026/02/24 13:43:53 [error] [exception.CException] CException: Property "CWebApplication.authorService" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/base/CModule.php(105): CComponent->__get('authorService')
+#1 /var/www/app/testdrive/protected/controllers/AuthorController.php(9): CModule->__get('authorService')
+#2 /var/www/app/framework/web/CWebApplication.php(359): AuthorController->__construct('author', NULL)
+#3 /var/www/app/framework/web/CWebApplication.php(276): CWebApplication->createController('top10/')
+#4 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#5 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/app/testdrive/index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 13:44:54 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function AuthorService::top10(), 0 passed in /var/www/app/testdrive/protected/controllers/AuthorController.php on line 152 and exactly 1 expected in /var/www/app/testdrive/protected/services/AuthorService.php:12
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 13:45:51 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:19
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 13:51:41 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:19
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:07:28 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in /var/www/app/testdrive/protected/controllers/BookController.php:174
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/BookController.php(59): BookController->loadModel('33')
+#1 [internal function]: BookController->actionView('33')
+#2 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(BookController), Array)
+#3 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BookController), Object(ReflectionMethod), Array)
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/view')
+#14 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/app/testdrive/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=book/view&id=33
+HTTP_REFERER=http://localhost:8094/index.php?r=book/update&id=33
+---
+2026/02/24 14:07:51 [error] [exception.RuntimeException] RuntimeException: Не выбраны авторы in /var/www/app/testdrive/protected/services/BookService.php:95
+Stack trace:
+#0 /var/www/app/testdrive/protected/services/BookService.php(15): BookService->checkAuthors(Array)
+#1 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add(Array, Array)
+#2 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#3 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=book/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/24 14:08:50 [error] [exception.RuntimeException] RuntimeException: Ошибка сохранения книги in /var/www/app/testdrive/protected/services/BookService.php:24
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add(Array, Array)
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=book/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/24 14:12:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id).
+in /var/www/app/testdrive/protected/models/Book.php (123)
+in /var/www/app/testdrive/protected/services/BookService.php (24)
+in /var/www/app/testdrive/protected/controllers/BookController.php (76)
+2026/02/24 14:12:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id) in /var/www/app/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/app/framework/db/CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 /var/www/app/testdrive/protected/models/Book.php(123): CDbCommand->insert('tbl_author_book', Array)
+#2 /var/www/app/testdrive/protected/services/BookService.php(24): Book->syncAuthors(Array)
+#3 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add(Array, Array)
+#4 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#5 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#14 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#15 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#16 /var/www/app/testdrive/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=book/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/24 14:14:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id).
+in /var/www/app/testdrive/protected/models/Book.php (123)
+in /var/www/app/testdrive/protected/services/BookService.php (24)
+in /var/www/app/testdrive/protected/controllers/BookController.php (76)
+2026/02/24 14:14:39 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id) in /var/www/app/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/app/framework/db/CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 /var/www/app/testdrive/protected/models/Book.php(123): CDbCommand->insert('tbl_author_book', Array)
+#2 /var/www/app/testdrive/protected/services/BookService.php(24): Book->syncAuthors(Array)
+#3 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add(Array, Array)
+#4 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#5 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#14 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#15 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#16 /var/www/app/testdrive/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=book/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/24 14:17:35 [error] [php] Undefined variable $IDE_EVAL_CACHE (xdebug://debug-eval:10)
+Stack trace:
+#0 /var/www/app/testdrive/protected/services/BookService.php(24): unknown()
+#1 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add()
+#2 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#3 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/app/framework/web/filters/CFilterChain.php(134): BookController->runAction()
+#5 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(1148): CAccessControlFilter->filter()
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): BookController->filterAccessControl()
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): BookController->runActionWithFilters()
+#11 /var/www/app/framework/web/CWebApplication.php(282): BookController->run()
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=book/create
+in xdebug://debug-eval (10)
+in /var/www/app/testdrive/protected/services/BookService.php (24)
+in /var/www/app/testdrive/protected/controllers/BookController.php (76)
+2026/02/24 14:27:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id).
+in /var/www/app/testdrive/protected/models/Book.php (123)
+in /var/www/app/testdrive/protected/services/BookService.php (27)
+in /var/www/app/testdrive/protected/controllers/BookController.php (76)
+2026/02/24 14:27:50 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'book_id' cannot be null. The SQL statement executed was: INSERT INTO `tbl_author_book` (`book_id`, `author_id`) VALUES (:book_id, :author_id) in /var/www/app/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/app/framework/db/CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 /var/www/app/testdrive/protected/models/Book.php(123): CDbCommand->insert('tbl_author_book', Array)
+#2 /var/www/app/testdrive/protected/services/BookService.php(27): Book->syncAuthors(Array)
+#3 /var/www/app/testdrive/protected/controllers/BookController.php(76): BookService->add(Array, Array)
+#4 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#5 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#14 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#15 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#16 /var/www/app/testdrive/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=book/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/24 14:33:53 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:19
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:36:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':year
+group by tbl_author_book.author_id
+ order by cnt desc' at line 5. The SQL statement executed was: select tbl_authors.id, tbl_authors.name, count(*) as cnt
+from tbl_books
+    left join tbl_author_book ON tbl_author_book.book_id = tbl_books.id
+    left join tbl_authors ON tbl_authors.id = tbl_author_book.author_id
+where year = :year
+group by tbl_author_book.author_id
+ order by cnt desc.
+in /var/www/app/testdrive/protected/services/AuthorService.php (26)
+in /var/www/app/testdrive/protected/controllers/AuthorController.php (152)
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 14:36:40 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':year
+group by tbl_author_book.author_id
+ order by cnt desc' at line 5. The SQL statement executed was: select tbl_authors.id, tbl_authors.name, count(*) as cnt
+from tbl_books
+    left join tbl_author_book ON tbl_author_book.book_id = tbl_books.id
+    left join tbl_authors ON tbl_authors.id = tbl_author_book.author_id
+where year = :year
+group by tbl_author_book.author_id
+ order by cnt desc in /var/www/app/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/app/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/app/testdrive/protected/services/AuthorService.php(26): CDbCommand->queryAll()
+#2 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#13 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#14 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/app/testdrive/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:38:19 [error] [exception.CException] CException: Property "CDbConnection.createCommand" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/testdrive/protected/services/AuthorService.php(18): CComponent->__get('createCommand')
+#1 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#2 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#3 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:38:46 [error] [exception.CException] CException: Property "CDbConnection.createCommand" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/testdrive/protected/services/AuthorService.php(18): CComponent->__get('createCommand')
+#1 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#2 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#3 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:41:18 [error] [exception.CException] CException: Property "CDbConnection.createCommand" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/testdrive/protected/services/AuthorService.php(18): CComponent->__get('createCommand')
+#1 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#2 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#3 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:42:24 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:29
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:43:09 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:29
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 14:43:45 [error] [exception.TypeError] TypeError: AuthorService::top10(): Return value must be of type array, none returned in /var/www/app/testdrive/protected/services/AuthorService.php:29
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(152): AuthorService->top10()
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 16:56:20 [error] [exception.Error] Error: Call to a member function getData() on array in /var/www/app/framework/zii/widgets/CBaseListView.php:125
+Stack trace:
+#0 /var/www/app/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:06:06 [error] [exception.Error] Error: Call to a member function getData() on array in /var/www/app/framework/zii/widgets/CBaseListView.php:125
+Stack trace:
+#0 /var/www/app/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:10:49 [error] [exception.Error] Error: Call to a member function getData() on array in /var/www/app/framework/zii/widgets/CBaseListView.php:125
+Stack trace:
+#0 /var/www/app/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:23:55 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_view.php:8
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:24:37 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_view.php:8
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:24:50 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_view.php:8
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('index', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:25:30 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_top10.php:8
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('top10', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:25:53 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_top10.php:8
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('top10', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:28:23 [error] [exception.CException] CException: Property "CGridView.itemView" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/CWidgetFactory.php(161): CComponent->__set('itemView', '_top10')
+#1 /var/www/app/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AuthorController), 'CGridView', Array)
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:32:25 [error] [exception.CException] CException: Property "Author.description1" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/db/ar/CActiveRecord.php(145): CComponent->__get('description1')
+#1 /var/www/app/framework/web/helpers/CHtml.php(2784): CActiveRecord->__get('description1')
+#2 /var/www/app/framework/web/helpers/CHtml.php(2507): CHtml::resolveValue(Object(Author), 'description1')
+#3 /var/www/app/framework/web/helpers/CHtml.php(1554): CHtml::activeInputField('text', Object(Author), 'description1', Array)
+#4 /var/www/app/framework/zii/widgets/grid/CDataColumn.php(110): CHtml::activeTextField(Object(Author), 'description1', Array)
+#5 /var/www/app/framework/zii/widgets/grid/CGridColumn.php(259): CDataColumn->getFilterCellContent()
+#6 /var/www/app/framework/zii/widgets/grid/CGridColumn.php(125): CGridColumn->renderFilterCellContent()
+#7 /var/www/app/framework/zii/widgets/grid/CGridView.php(555): CGridColumn->renderFilterCell()
+#8 /var/www/app/framework/zii/widgets/grid/CGridView.php(533): CGridView->renderFilter()
+#9 /var/www/app/framework/zii/widgets/grid/CGridView.php(503): CGridView->renderTableHeader()
+#10 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#13 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#14 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#15 /var/www/app/testdrive/protected/views/author/admin.php(43): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#17 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#18 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#19 /var/www/app/framework/web/CController.php(785): CController->renderPartial('admin', Array, true)
+#20 /var/www/app/testdrive/protected/controllers/AuthorController.php(145): CController->render('admin', Array)
+#21 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionAdmin()
+#22 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#24 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#26 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#28 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#29 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /var/www/app/framework/web/CWebApplication.php(282): CController->run('admin')
+#31 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/admin')
+#32 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#33 /var/www/app/testdrive/index.php(15): CApplication->run()
+#34 {main}
+REQUEST_URI=/index.php?r=author/admin
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/24 17:33:40 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on array in /var/www/app/testdrive/protected/views/author/_top10.php:13
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 [internal function]: CBaseListView->renderSection(Array)
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#8 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#9 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#10 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#12 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('top10', Array)
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:40:00 [error] [exception.CException] CException: CHttpRequest and its behaviors do not have a method or closure named "get". in /var/www/app/framework/base/CComponent.php:264
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(155): CComponent->__call('get', Array)
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:40:34 [error] [exception.CException] CException: Property "CListView.year" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/CWidgetFactory.php(161): CComponent->__set('year', '2026')
+#1 /var/www/app/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AuthorController), 'CListView', Array)
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(157): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:41:21 [error] [exception.CException] CException: Property "CListView.year" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/CWidgetFactory.php(161): CComponent->__set('year', '2026')
+#1 /var/www/app/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AuthorController), 'CListView', Array)
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:42:10 [error] [exception.CException] CException: Property "CListView.year" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/CWidgetFactory.php(161): CComponent->__set('year', NULL)
+#1 /var/www/app/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AuthorController), 'CListView', Array)
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(18): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:44:11 [error] [exception.CException] CException: The property "itemView" cannot be empty. in /var/www/app/framework/zii/widgets/CListView.php:210
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#2 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#3 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#4 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#7 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#8 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#9 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#18 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#19 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#20 /var/www/app/testdrive/index.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:44:24 [error] [php] Undefined variable $year (/var/www/app/testdrive/protected/views/author/top10.php:20)
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(126): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): AuthorController->renderInternal()
+#2 /var/www/app/framework/web/CController.php(872): AuthorController->renderFile()
+#3 /var/www/app/framework/web/CController.php(785): AuthorController->renderPartial()
+#4 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): AuthorController->render()
+#5 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#6 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/app/framework/web/filters/CFilterChain.php(134): AuthorController->runAction()
+#8 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(1148): CAccessControlFilter->filter()
+#10 /var/www/app/framework/web/filters/CInlineFilter.php(58): AuthorController->filterAccessControl()
+#11 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#12 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#14 /var/www/app/framework/web/CWebApplication.php(282): AuthorController->run()
+#15 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=author/top10
+in /var/www/app/testdrive/protected/views/author/top10.php (20)
+in /var/www/app/testdrive/protected/controllers/AuthorController.php (158)
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 17:44:31 [error] [exception.Error] Error: Call to a member function getData() on array in /var/www/app/framework/zii/widgets/CBaseListView.php:125
+Stack trace:
+#0 /var/www/app/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:45:23 [error] [exception.Error] Error: Call to a member function getData() on array in /var/www/app/framework/zii/widgets/CBaseListView.php:125
+Stack trace:
+#0 /var/www/app/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#1 /var/www/app/framework/web/CBaseController.php(147): CListView->init()
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:46:05 [error] [php] Undefined array key "dataProvider" (/var/www/app/testdrive/protected/views/author/_top10.php:9)
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(130): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): AuthorController->renderInternal()
+#2 /var/www/app/framework/zii/widgets/CListView.php(291): AuthorController->renderFile()
+#3 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#6 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CListView->renderContent()
+#7 /var/www/app/framework/web/CBaseController.php(182): CListView->run()
+#8 /var/www/app/testdrive/protected/views/author/top10.php(17): AuthorController->widget()
+#9 /var/www/app/framework/web/CBaseController.php(126): require()
+#10 /var/www/app/framework/web/CBaseController.php(95): AuthorController->renderInternal()
+#11 /var/www/app/framework/web/CController.php(872): AuthorController->renderFile()
+#12 /var/www/app/framework/web/CController.php(785): AuthorController->renderPartial()
+#13 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): AuthorController->render()
+#14 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#15 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#16 /var/www/app/framework/web/filters/CFilterChain.php(134): AuthorController->runAction()
+#17 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/app/framework/web/CController.php(1148): CAccessControlFilter->filter()
+#19 /var/www/app/framework/web/filters/CInlineFilter.php(58): AuthorController->filterAccessControl()
+#20 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#21 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#22 /var/www/app/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#23 /var/www/app/framework/web/CWebApplication.php(282): AuthorController->run()
+#24 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#25 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#26 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=author/top10
+in /var/www/app/testdrive/protected/views/author/_top10.php (9)
+in /var/www/app/testdrive/protected/views/author/top10.php (17)
+in /var/www/app/testdrive/protected/controllers/AuthorController.php (158)
+2026/02/24 17:46:47 [error] [exception.CException] CException: Property "CListView.year" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/CWidgetFactory.php(161): CComponent->__set('year', NULL)
+#1 /var/www/app/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AuthorController), 'CListView', Array)
+#2 /var/www/app/framework/web/CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /var/www/app/testdrive/protected/views/author/top10.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#5 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#6 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#7 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#8 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:49:31 [error] [exception.Error] Error: Cannot use object of type CArrayDataProvider as array in /var/www/app/testdrive/protected/views/author/top10.php:18
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(126): require()
+#1 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#2 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#3 /var/www/app/framework/web/CController.php(785): CController->renderPartial('top10', Array, true)
+#4 /var/www/app/testdrive/protected/controllers/AuthorController.php(158): CController->render('top10', Array)
+#5 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#6 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#15 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#16 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/app/testdrive/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=author/top10
+---
+2026/02/24 17:52:23 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "top10?year=2025". in /var/www/app/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/app/framework/web/CController.php(270): CController->missingAction('top10?year=2025')
+#1 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10?year=2025')
+#2 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10?ye...')
+#3 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/app/testdrive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=author/top10?year=2025
+---
+2026/02/24 17:53:42 [error] [exception.TypeError] TypeError: AuthorService::top10(): Argument #1 ($year) must be of type ?int, string given, called in /var/www/app/testdrive/protected/controllers/AuthorController.php on line 161 and defined in /var/www/app/testdrive/protected/services/AuthorService.php:12
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/AuthorController.php(161): AuthorService->top10('2026tr')
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): AuthorController->actionTop10()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('top10')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/top10')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=author/top10&year=2026tr
+---
+2026/02/24 18:29:01 [error] [php] file_put_contents(/var/www/app/testdrive/protected/runtime/gii-1.1.32/ControllerCode.php): Failed to open stream: Permission denied (/var/www/app/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /var/www/app/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /var/www/app/framework/gii/CCodeGenerator.php(161): ControllerCode->saveStickyAttributes()
+#2 /var/www/app/framework/gii/CCodeGenerator.php(63): ControllerGenerator->prepare()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): ControllerGenerator->actionIndex()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/app/framework/web/CController.php(286): ControllerGenerator->runAction()
+#6 /var/www/app/framework/web/CController.php(265): ControllerGenerator->runActionWithFilters()
+#7 /var/www/app/framework/web/CWebApplication.php(282): ControllerGenerator->run()
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/controller/index
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 18:29:31 [error] [php] file_put_contents(/var/www/app/testdrive/protected/runtime/gii-1.1.32/CrudCode.php): Failed to open stream: Permission denied (/var/www/app/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /var/www/app/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /var/www/app/framework/gii/CCodeGenerator.php(161): CrudCode->saveStickyAttributes()
+#2 /var/www/app/framework/gii/CCodeGenerator.php(63): CrudGenerator->prepare()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): CrudGenerator->actionIndex()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/app/framework/web/CController.php(286): CrudGenerator->runAction()
+#6 /var/www/app/framework/web/CController.php(265): CrudGenerator->runActionWithFilters()
+#7 /var/www/app/framework/web/CWebApplication.php(282): CrudGenerator->run()
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/crud/index
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 18:29:50 [error] [php] file_put_contents(/var/www/app/testdrive/protected/runtime/gii-1.1.32/ControllerCode.php): Failed to open stream: Permission denied (/var/www/app/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /var/www/app/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /var/www/app/framework/gii/CCodeGenerator.php(161): ControllerCode->saveStickyAttributes()
+#2 /var/www/app/framework/gii/CCodeGenerator.php(63): ControllerGenerator->prepare()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): ControllerGenerator->actionIndex()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/app/framework/web/CController.php(286): ControllerGenerator->runAction()
+#6 /var/www/app/framework/web/CController.php(265): ControllerGenerator->runActionWithFilters()
+#7 /var/www/app/framework/web/CWebApplication.php(282): ControllerGenerator->run()
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/controller/index
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 18:31:30 [error] [php] file_put_contents(/var/www/app/testdrive/protected/runtime/gii-1.1.32/CrudCode.php): Failed to open stream: Permission denied (/var/www/app/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /var/www/app/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /var/www/app/framework/gii/CCodeGenerator.php(161): CrudCode->saveStickyAttributes()
+#2 /var/www/app/framework/gii/CCodeGenerator.php(63): CrudGenerator->prepare()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): CrudGenerator->actionIndex()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/app/framework/web/CController.php(286): CrudGenerator->runAction()
+#6 /var/www/app/framework/web/CController.php(265): CrudGenerator->runActionWithFilters()
+#7 /var/www/app/framework/web/CWebApplication.php(282): CrudGenerator->run()
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/crud/index
+in /var/www/app/testdrive/index.php (15)
+2026/02/24 18:32:00 [error] [php] file_put_contents(/var/www/app/testdrive/protected/runtime/gii-1.1.32/CrudCode.php): Failed to open stream: Permission denied (/var/www/app/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /var/www/app/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /var/www/app/framework/gii/CCodeGenerator.php(161): CrudCode->saveStickyAttributes()
+#2 /var/www/app/framework/gii/CCodeGenerator.php(63): CrudGenerator->prepare()
+#3 /var/www/app/framework/web/actions/CInlineAction.php(49): CrudGenerator->actionIndex()
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/app/framework/web/CController.php(286): CrudGenerator->runAction()
+#6 /var/www/app/framework/web/CController.php(265): CrudGenerator->runActionWithFilters()
+#7 /var/www/app/framework/web/CWebApplication.php(282): CrudGenerator->run()
+#8 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/app/testdrive/index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=gii/crud/index
+in /var/www/app/testdrive/index.php (15)
+2026/02/25 09:06:36 [error] [exception.ParseError] ParseError: syntax error, unexpected variable "$author", expecting ")" in /var/www/app/testdrive/protected/views/book/_view.php:38
+Stack trace:
+#0 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, false)
+#1 /var/www/app/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/app/te...', Array)
+#2 /var/www/app/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#3 [internal function]: CBaseListView->renderSection(Array)
+#4 /var/www/app/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#5 /var/www/app/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#6 /var/www/app/framework/web/CBaseController.php(182): CBaseListView->run()
+#7 /var/www/app/testdrive/protected/views/book/index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#8 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#9 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#10 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#11 /var/www/app/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#12 /var/www/app/testdrive/protected/controllers/BookController.php(143): CController->render('index', Array)
+#13 /var/www/app/framework/web/actions/CInlineAction.php(49): BookController->actionIndex()
+#14 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/app/framework/web/CWebApplication.php(282): CController->run('')
+#23 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('book/')
+#24 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#25 /var/www/app/testdrive/index.php(15): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php?r=book/
+HTTP_REFERER=http://localhost:8094/index.php
+---
+2026/02/25 09:08:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "2". in /var/www/app/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/app/framework/web/CController.php(270): CController->missingAction('2')
+#1 /var/www/app/framework/web/CWebApplication.php(282): CController->run('2')
+#2 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/2')
+#3 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/app/testdrive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=author/2
+HTTP_REFERER=http://localhost:8094/index.php?r=book/
+---
+2026/02/25 10:16:14 [error] [exception.CException] CException: Property "CWebUser.email" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/app/testdrive/protected/views/author/view.php(34): CWebUser->__get('email')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:18:43 [error] [exception.CException] CException: Property "CWebUser.email" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/app/testdrive/protected/views/author/view.php(33): CWebUser->__get('email')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:21:31 [error] [exception.CException] CException: Property "CWebUser.identity" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('identity')
+#1 /var/www/app/testdrive/protected/views/author/view.php(33): CWebUser->__get('identity')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:24:43 [error] [exception.CException] CException: Property "CWebUser.identityClass" is not defined. in /var/www/app/framework/base/CComponent.php:172
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(161): CComponent->__set('identityClass', 'UserIdentity')
+#1 /var/www/app/framework/YiiBase.php(227): CWebUser->__set('identityClass', 'UserIdentity')
+#2 /var/www/app/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#3 /var/www/app/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#4 /var/www/app/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#5 /var/www/app/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#12 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#13 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/app/testdrive/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:26:46 [error] [exception.CException] CException: Property "CWebUser.email" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/app/testdrive/protected/views/author/view.php(33): CWebUser->__get('email')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:26:53 [error] [exception.CException] CException: Property "CWebUser.identity" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('identity')
+#1 /var/www/app/testdrive/protected/views/author/view.php(33): CWebUser->__get('identity')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:27:55 [error] [exception.CException] CException: Property "CWebUser.identity" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('identity')
+#1 /var/www/app/testdrive/protected/views/author/view.php(33): CWebUser->__get('identity')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:29:58 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHtml::emailField(), 0 passed in /var/www/app/testdrive/protected/views/author/view.php on line 50 and at least 1 expected in /var/www/app/framework/web/helpers/CHtml.php:791
+Stack trace:
+#0 /var/www/app/testdrive/protected/views/author/view.php(50): CHtml::emailField()
+#1 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#2 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#3 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#5 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#6 [internal function]: AuthorController->actionView('1')
+#7 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#8 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#9 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#18 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#19 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#20 /var/www/app/testdrive/index.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 10:31:01 [error] [exception.CException] CException: Property "CWebUser.email" is not defined. in /var/www/app/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/app/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/app/testdrive/protected/views/author/view.php(35): CWebUser->__get('email')
+#2 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#3 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#5 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#7 [internal function]: AuthorController->actionView('1')
+#8 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#9 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#10 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#20 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#21 /var/www/app/testdrive/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+---
+2026/02/25 10:41:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in /var/www/app/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/app/framework/web/CController.php(270): CController->missingAction('add')
+#1 /var/www/app/framework/web/CWebApplication.php(282): CController->run('add')
+#2 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('subscription/ad...')
+#3 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/app/testdrive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=subscription/add
+HTTP_REFERER=http://localhost:8094/index.php?r=author/view&id=1
+---
+2026/02/25 10:54:38 [error] [exception.Error] Error: Unknown named parameter $data in /var/www/app/testdrive/protected/controllers/SubscriptionController.php:75
+Stack trace:
+#0 /var/www/app/framework/web/actions/CInlineAction.php(49): SubscriptionController->actionCreate()
+#1 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#8 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#10 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('subscription/cr...')
+#11 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /var/www/app/testdrive/index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=subscription/create
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/25 11:07:16 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in /var/www/app/testdrive/protected/controllers/SubscriptionController.php:123
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/SubscriptionController.php(58): SubscriptionController->loadModel('30')
+#1 [internal function]: SubscriptionController->actionView('30')
+#2 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(SubscriptionController), Array)
+#3 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SubscriptionController), Object(ReflectionMethod), Array)
+#4 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('subscription/vi...')
+#14 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/app/testdrive/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=subscription/view&id=30
+HTTP_REFERER=http://localhost:8094/index.php?r=book/create
+---
+2026/02/25 11:12:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "unsubscribe". in /var/www/app/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/app/framework/web/CController.php(270): CController->missingAction('unsubscribe')
+#1 /var/www/app/framework/web/CWebApplication.php(282): CController->run('unsubscribe')
+#2 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('subscription/un...')
+#3 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/app/testdrive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=subscription/unsubscribe&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/view&id=1
+---
+2026/02/25 11:13:53 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHtml::activeLabel(), 1 passed in /var/www/app/testdrive/protected/views/author/view.php on line 40 and at least 2 expected in /var/www/app/framework/web/helpers/CHtml.php:1492
+Stack trace:
+#0 /var/www/app/testdrive/protected/views/author/view.php(40): CHtml::activeLabel('\xD1\x82\xD1\x83\xD1\x82 \xD0\xBD\xD0\xB0\xD0\xB4\xD0\xBE...')
+#1 /var/www/app/framework/web/CBaseController.php(126): require('/var/www/app/te...')
+#2 /var/www/app/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/app/te...', Array, true)
+#3 /var/www/app/framework/web/CController.php(872): CBaseController->renderFile('/var/www/app/te...', Array, true)
+#4 /var/www/app/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#5 /var/www/app/testdrive/protected/controllers/AuthorController.php(58): CController->render('view', Array)
+#6 [internal function]: AuthorController->actionView('1')
+#7 /var/www/app/framework/web/actions/CAction.php(114): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#8 /var/www/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#9 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/app/framework/web/CWebApplication.php(282): CController->run('view')
+#18 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('author/view')
+#19 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#20 /var/www/app/testdrive/index.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=author/view&id=1
+HTTP_REFERER=http://localhost:8094/index.php?r=author/
+---
+2026/02/25 11:14:58 [error] [exception.Error] Error: Attempt to assign property "attributes" on null in /var/www/app/testdrive/protected/services/SubscriptionService.php:20
+Stack trace:
+#0 /var/www/app/testdrive/protected/controllers/SubscriptionController.php(74): SubscriptionService->add(Array)
+#1 /var/www/app/framework/web/actions/CInlineAction.php(49): SubscriptionController->actionCreate()
+#2 /var/www/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/app/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /var/www/app/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/app/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 /var/www/app/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /var/www/app/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /var/www/app/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/app/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /var/www/app/framework/web/CWebApplication.php(141): CWebApplication->runController('subscription/cr...')
+#12 /var/www/app/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/app/testdrive/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=subscription/create
+HTTP_REFERER=http://localhost:8094/index.php?r=author/view&id=2
+---

@@ -1,0 +1,53 @@
+services:
+  app:
+    build:
+      context: ./app
+      dockerfile: ../docker/app/Dockerfile
+    container_name: test-infotek-app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./app:/var/www/app
+      - ./docker/config/nginx:/etc/nginx/conf.d
+      - ./docker/config/xdebug/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    depends_on:
+      - db
+      - webserver
+    environment:
+      PHP_IDE_CONFIG: "serverName=app"
+    networks:
+      - default-network
+
+  webserver:
+    image: nginx:alpine
+    container_name: test-infotek-web
+    ports:
+      - "127.0.0.1:8094:80"
+    volumes:
+      - ./app:/var/www/app
+      - ./docker/config/nginx:/etc/nginx/conf.d
+    networks:
+      - default-network
+
+  db:
+    image: mariadb
+    container_name: test-infotek-db
+    restart: always
+    ports:
+      - "127.0.0.1:3332:3306"
+    environment:
+      # MYSQL_DATABASE: ${DB_DATABASE}
+      # MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: "root"
+    volumes:
+      - db_volume:/var/lib/mysql
+      - ./docker/dump:/docker-entrypoint-initdb.d
+    networks:
+      - default-network
+
+volumes:
+  db_volume:
+
+networks:
+  default-network:
+    driver: bridge
