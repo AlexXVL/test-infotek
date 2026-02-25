@@ -15,3 +15,7 @@ docker exec -it test-infotek-app ./testdrive/protected/yiic migrate
 ```shell
 docker exec -it test-infotek-app rm -rf ./testdrive/protected/runtime/*
 ```
+
+
+Также приложил примеры кода из laravel (мой рабочий фреймворк)
+Они находятся в папке /example
