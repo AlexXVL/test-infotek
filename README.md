@@ -17,5 +17,5 @@ docker exec -it test-infotek-app rm -rf ./testdrive/protected/runtime/*
 ```
 
 
-Также приложил примеры кода из laravel (мой рабочий фреймворк)
+Также приложил примеры моего кода из laravel (мой рабочий фреймворк)
 Они находятся в папке /example
